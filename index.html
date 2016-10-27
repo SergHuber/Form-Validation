@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Registration form</title>
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<div class="wrap">
+		<h1>Форма регистрации</h1>
+		<form action="#" method="post">
+			<fieldset>
+				<p>
+					<label for="email">E-mail*</label> <br>
+					<input type="text" id="email" placeholder="Почта">
+				</p>
+				<p>
+					<label for="pass1">Пароль(не менее 5 символов)*</label> <br>
+					<input type="password" id="pass1" placeholder="Пароль">
+				</p>
+				<p>
+					<label for="pass2">Повторите пароль*</label> <br>
+					<input type="password" id="pass2" placeholder="Пароль">
+				</p>
+			</fieldset>
+
+			<fieldset>
+				<p>
+					<label for="name">Имя</label> <br>
+					<input type="text" id="name" placeholder="Имя">
+				</p>
+				<p>
+					<label for="surname">Фамилия</label> <br>
+					<input type="text" id="surname" placeholder="Фамилия">
+				</p>
+				<p>
+					<label for="city">Город</label> <br>
+					<input type="text" id="city" placeholder="Город">
+				</p>
+				<p>
+					<label for="phone">Телефон(в международном формате)</label> <br>
+					<input type="text" id="phone" placeholder="Например: +380958380102">
+				</p>
+			</fieldset>
+
+			<fieldset>
+				<p>
+					<input type="checkbox" id="check">
+					<label for="check">Я согласен с <a href="">условиями конфиденциальности</a>*</label>
+				</p>
+				<p>
+					<button type="submit" id="send" disabled>Зарегистрироваться</button>
+				</p>
+			</fieldset>
+		</form>
+	</div>
+	<script src="js/script.js"></script>
+</body>
+</html>
