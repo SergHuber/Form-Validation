@@ -2,54 +2,54 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>Registration form</title>
+  <title>Form Validation</title>
   <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-  <div class="wrap">
-    <h1>Форма регистрации</h1>
+  <div class="container">
+    <h1>Registration Form</h1>
     <form action="#" method="post">
       <fieldset>
         <p>
-          <label for="email">E-mail*</label> <br>
-          <input type="text" id="email" placeholder="Почта">
+          <label for="email">Email Address*</label> <br>
+          <input type="text" id="email" placeholder="Email">
         </p>
         <p>
-          <label for="pass1">Пароль(не менее 5 символов)*</label> <br>
-          <input type="password" id="pass1" placeholder="Пароль">
+          <label for="pass1">Password* (at least 5 characters long)</label> <br>
+          <input type="password" id="pass1" placeholder="Password">
         </p>
         <p>
-          <label for="pass2">Повторите пароль*</label> <br>
-          <input type="password" id="pass2" placeholder="Пароль">
+          <label for="pass2">Confirm Password*</label> <br>
+          <input type="password" id="pass2" placeholder="Password">
         </p>
       </fieldset>
 
       <fieldset>
         <p>
-          <label for="name">Имя</label> <br>
-          <input type="text" id="name" placeholder="Имя">
+          <label for="name">First Name</label> <br>
+          <input type="text" id="first-name" placeholder="First Name">
         </p>
         <p>
-          <label for="surname">Фамилия</label> <br>
-          <input type="text" id="surname" placeholder="Фамилия">
+          <label for="surname">Last Name</label> <br>
+          <input type="text" id="last-name" placeholder="Last Name">
         </p>
         <p>
-          <label for="city">Город</label> <br>
-          <input type="text" id="city" placeholder="Город">
+          <label for="city">City</label> <br>
+          <input type="text" id="city" placeholder="City">
         </p>
         <p>
-          <label for="phone">Телефон(в международном формате)</label> <br>
-          <input type="text" id="phone" placeholder="Например: +380958380102">
+          <label for="phone">Phone number (in international format)</label> <br>
+          <input type="text" id="phone-number" placeholder="Format: +380958380102">
         </p>
       </fieldset>
 
       <fieldset>
         <p>
           <input type="checkbox" id="check">
-          <label for="check">Я согласен с <a href="">условиями конфиденциальности</a>*</label>
+          <label for="check">I agree to the <a href="">privacy policy</a>*</label>
         </p>
         <p>
-          <button type="submit" id="send" disabled>Зарегистрироваться</button>
+          <button type="submit" id="send" disabled>Create Account</button>
         </p>
       </fieldset>
     </form>
