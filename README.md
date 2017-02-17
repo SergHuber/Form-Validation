@@ -1,5 +1,7 @@
 # Form Validation
-Simple registration form with client-side validation. Demo: https://serghuber.github.io/form-validation
+Demo: https://serghuber.github.io/form-validation
+
+<b>Features</b>
 <ol>
   <li>4 fields marked with an asterisk (*) are mandatory.</li>
   <li>You can't submit the form (submit button isn't active) until all the required fields are filled in.</li>
